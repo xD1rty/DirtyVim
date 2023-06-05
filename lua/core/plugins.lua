@@ -14,6 +14,7 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
 	{ "phaazon/hop.nvim" },
+    { "windwp/nvim-autopairs", },
 	{
         "nvim-neo-tree/neo-tree.nvim",
         dependencies = {

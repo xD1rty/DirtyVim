@@ -7,6 +7,6 @@ require("plugins.neotree")
 require("plugins.lsp")
 require("plugins.treesitter")
 require("plugins.mason")
-require("plugins.nullls")
 require("plugins.dashboard")
 require("plugins.lualine")
+require("nvim-autopairs").setup {}
